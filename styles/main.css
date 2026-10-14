@@ -6,7 +6,7 @@ body {
 a:hover,
 a:focus {
     font-style: italic;
-    color: #800000;
+    color: var(--accent-color);
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 
 h2 {
     font-size: 130%;
-    color: #800000;
+    color: var(--accent-color);
 }
 
 h3 {
@@ -41,4 +41,18 @@ header {
 
 main {
     clear: left;
+}
+
+footer {
+    p {
+        text-align: center;
+    }
+}
+
+.large {
+    font-size: 125%;
+}
+
+:root {
+    --accent-color: #800000;
 }
