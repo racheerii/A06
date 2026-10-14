@@ -38,3 +38,7 @@ header {
         float: left;
     }
 }
+
+main {
+    clear: left;
+}
